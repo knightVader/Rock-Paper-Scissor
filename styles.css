@@ -1,0 +1,175 @@
+body{
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #588157;
+}
+
+.intro{
+    position: absolute;
+    /*from copilot*/
+    top: 50%; /* Vertically center the intro */
+    left: 50%; /* Horizontally center the intro */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    height: 75%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(20, 33, 61, 0.9);
+    color:bisque;
+    font-size: 36px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: azure;
+}
+
+#name{
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.btn{
+    color: black;
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.head{
+    background-color: #14213d;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+@media (min-width:480px){
+    img{
+        height: 80px;
+        width: 80px;
+        img:hover{
+            border: 8px solid #14213d;
+        }
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+img:hover{
+    border: 12px solid #14213d;
+}
+
+#sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.selections{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.score-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 2rem;
+}
+
+.player-div, .computer-div{
+    background-color: #90e0ef;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:monospace;
+    height: 125px;
+    width: 150px;
+    border-radius: 50px;
+    border: 8px solid #14213d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cscore, .pscore{
+    font-size: 28px;
+}
+
+.msg{
+    color: antiquewhite;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-green{
+    color: rgb(0, 255, 0);
+}
+
+.msg-red{
+    color: red;
+}
+
+.msg-draw{
+    color: yellow;
+}
+
+#msgplayer{
+    background-color: #14213d;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fca311;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hide{
+    display: none;
+}

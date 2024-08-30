@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <p>Rock Paper Scissor</p>
+        </div>
+    </header>
+
+    <div class="intro">
+        <p>Welcome To The Game</p>
+        <form>
+            <div class="introduction">
+                <label for="name">Player Name</label>
+                <input type="text" id="name" placeholder="Enter Your Name" autocomplete="off" required>
+            </div>
+            <input type="submit" class="btn">
+        </form>
+    </div>
+
+    <section id="sec">
+        <div class="selections">
+            <div class="choice"  id="rock">
+                <img src="./images/rock.png" alt="Rock Image">
+            </div>
+
+            <div class="choice"  id="paper">
+                <img src="./images/paper.png" alt="Paper Image">
+            </div>
+
+            <div class="choice" id="scissor">
+                <img src="./images/scissors.png" alt="Scissor Image">
+            </div>
+        </div>
+
+        <div class="score-card">
+            <div class="player-div">
+                <p class="player">Player</p>
+                <p class="pscore">0</p>
+            </div>
+
+            <div class="computer-div">
+                <p class="computer">Computer</p>
+                <p class="cscore">0</p>
+            </div>
+        </div>
+
+        <div class="msg">
+            <p id="msgplayer">Message</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; Created By Vaibhav Sharma</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

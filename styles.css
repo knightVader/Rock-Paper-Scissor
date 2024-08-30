@@ -66,22 +66,10 @@ body{
     font-weight: 900;
 }
 
-@media (min-width:480px){
-    img{
-        height: 80px;
-        width: 80px;
-        img:hover{
-            border: 8px solid #14213d;
-        }
-        border-radius: 50%;
-        object-fit: cover;
-    }
-}
-
 img{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 90px;
+    width: 90px;
     object-fit: cover;
 }
 
